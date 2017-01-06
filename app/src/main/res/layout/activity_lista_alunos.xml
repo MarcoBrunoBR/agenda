@@ -20,10 +20,15 @@
         android:id="@+id/novo_aluno"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:text="Novo aluno"
+        android:text="+"
+        android:textSize="40sp"
+        android:textColor="#FFFFFF"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="16dp"
-        android:layout_marginRight="16dp" />
+        android:layout_marginRight="16dp"
+        android:background="@drawable/fundo"
+        android:elevation="6dp"
+        android:stateListAnimator="@null" />
 </RelativeLayout>
 
